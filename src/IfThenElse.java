@@ -1,12 +1,14 @@
 public class IfThenElse {
     public static void main(String[] args) {
-        int number = 9489237;
-        boolean bool = true;
-        if (bool) { // << Diese Bedingung könnte man auch als Boolean werten.
-            System.out.println("true");
+        int number = 1;
+        boolean erhöhen = (number <= 5); // Anmerkung in einem Boolean kann man also eine Bedingung
+                                         // Für ein IF statement festlegen.
+        if (erhöhen) {
+            number += 3;
+            System.out.println(number);
 
         } else {
-            System.out.println("false");
+            System.out.println(number);
         }
     }
 }
