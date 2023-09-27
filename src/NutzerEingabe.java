@@ -12,7 +12,7 @@ public class NutzerEingabe {
 
         sentense = scan.nextLine(); //Eingabe wird gespeichert in sentense
 
-        System.out.println("Dein Satz war: H" + sentense);
+        System.out.println("Dein Satz war: " + sentense);
 
     }
 }
