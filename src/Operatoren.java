@@ -4,12 +4,16 @@ public class Operatoren {
         // ! <- Nicht Operator (Beispiel if (!(temperatur > 20)) Wenn temparatur nicht > 20
         // Bedeutet das gleiche wie (Temparatur <= 20)
 
-        double temperatur = 45.5; // 45° Sind nicht Angenehm Die folgende If Bedingung liefert also ein
+        double temperatur = 25.5; // 45° Sind nicht Angenehm Die folgende If Bedingung liefert also ein
                                   // Falsches ergebnis!
+                                  // Lösung wäre eine 2. If anweisung unter der 1. einzubinden die besagt
+                                  // Das Temparatur ebenfalls kleiner als 35 ist....
 
         if (temperatur > 20) {
-            System.out.println("Angenehm");
-        } else {
+            if (temperatur < 35) {
+                System.out.println("Angenehm");
+                }
+            } else {
             System.out.println("unangenehm");
         }
     }
