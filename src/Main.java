@@ -25,5 +25,12 @@ public class Main {
        int zahl2 = 10;
        int sum = zahl1 + zahl2; // Hierbei werden beide Zahlen addiert.
        System.out.println("Das ergebniss ist: " + sum);
+
+       //Man kann variablen auch anders definieren hierbei unterscheidet man zwischen 2 Formen
+
+       int integer; //Hiermit wird die Variable erstellt und kann Später im Code einen Zuweisung erhalten
+       integer = 3; //Die Zuweisung (Das gleiche gilt für den String)
+       String word;
+       word = "Ein Wort";
    }
 }
