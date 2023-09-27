@@ -1,7 +1,7 @@
 public class IfThenElse {
     public static void main(String[] args) {
-        int number = 2;
-        if (number != 5) { // Bedingung ist immer ein Wert der Wahr oder Falsch ist.
+        int number = 9489237;
+        if (number >= 5) { // Bedingung ist immer ein Wert der Wahr oder Falsch ist.
                         // Kriterium ob der Code von dem If block oder Else Block ausgefürt wird.
                         // int number = 5 Ist eine Zuweisung
                         // number == 5 Ist ein Test (Prüfung ob die Zuweisung von Number gleich 5 ist).
@@ -11,6 +11,11 @@ public class IfThenElse {
                         // Will Man das Bedingung unwahr ist so muss man aus Number == 5
                         // Ein number != 5 machen.
                         // Gegebenfalls die Sysouts anpassen
+                        // Weitere Operatoren:
+                        // > Größer als
+                        // < Kleiner Als
+                        // >= Größer oder Gleich
+                        // <= Kleiner oder Gleich
             System.out.println("Number ist ungleich 5");
 
         } else { // Wird ausgefürt wenn Bedingung Falsch
