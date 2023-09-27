@@ -1,5 +1,3 @@
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
-
 public class Operatoren {
     public static void main(String[] args) {
         //Logische Operatoren sind Grundlage in Java für Professionalen Code
