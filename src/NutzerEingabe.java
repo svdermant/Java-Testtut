@@ -14,7 +14,7 @@ public class NutzerEingabe {
         //sentense = scan.nextLine(); //Eingabe wird gespeichert in sentense
         zahl = scan.nextInt(); //Eingabe wird gespeichert in zahl
 
-        System.out.println("Deine Zahl war: " + zahl);
+        System.out.println("Deine Zahl war: " + (zahl + 1));
 
     }
 }
