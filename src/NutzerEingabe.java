@@ -6,13 +6,15 @@ import java.util.Scanner;
 public class NutzerEingabe {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in); // Ermöglicht das Einlesen von daten.
-        String sentense; // Hier wird dann der Eingegebene Satz gespeichert.
+        String sentense; // Hier wird dann der Eingegebene Satz (String) gespeichert.
+        int zahl;
 
-        System.out.println("Bitte gib einen Satz ein!"); //Aufforderung einen Satz einzugeben.
+        System.out.println("Bitte gib eine Zahl ein!"); //Aufforderung einen Satz einzugeben.
 
-        sentense = scan.nextLine(); //Eingabe wird gespeichert in sentense
+        //sentense = scan.nextLine(); //Eingabe wird gespeichert in sentense
+        zahl = scan.nextInt();
 
-        System.out.println("Dein Satz war: " + sentense);
+        System.out.println("Deine Zahl war: " + zahl);
 
     }
 }
